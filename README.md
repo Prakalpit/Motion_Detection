@@ -1,5 +1,5 @@
 
-#OpenCV Motion Filtering
+# OpenCV Motion Filtering
 _First of All install OpenCV_
 
 ```
@@ -62,7 +62,7 @@ cv.destroyAllWindows()
 video.release()
 ```
 
-#View the Complete Code Below
+## View the Complete Code Below
 ```python
 import cv2 as cv
 
