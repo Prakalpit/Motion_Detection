@@ -10,8 +10,9 @@ Create A file called `Project_one.py`
 
 **Make Sure you have a vide file**  
 [Here](https://www.youtube.com/watch?v=ORrrKXGx2SE) is a video on youtube you have to download  
-You can name it `Project_one_video.mp4`
-###Step Wise Guide on how to do  
+You can name it `Project_one_video.mp4` 
+
+### Step Wise Guide on how to do  
 
 Import open-cv  
 ```python
