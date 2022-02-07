@@ -21,7 +21,7 @@ Make a _variable_ `video`
 ```python
 video = cv.VideoCapture('Project_one_video.mp4')
 ```
-Note you could use your camera too
+Note you could use your camera too by below given code 
 
 ```python
 video = cv2.VideoCapture(0)
