@@ -1,6 +1,6 @@
 import cv2 as cv
 
-video = cv.VideoCapture('video_2_trial.mov')
+video = cv.VideoCapture('videos/video_2_trial.mov')
 
 subtractor = cv.createBackgroundSubtractorMOG2(30,50)
 
@@ -14,7 +14,7 @@ while True:
             break
 
     else:
-        video = cv.VideoCapture('video_2_trial.mov')
+        video = cv.VideoCapture('videos/video_2_trial.mov')
 
 cv.destroyAllWindows()
 video.release()
