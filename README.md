@@ -19,7 +19,7 @@ import cv2 as cv
 ```
 Make a _variable_ `video` 
 ```python
-video = cv.VideoCapture('Project_one_video.mp4')
+video = cv.VideoCapture('videos/Project_one_video.mp4')
 ```
 Note you could use your camera too by below given code 
 
@@ -66,7 +66,7 @@ video.release()
 ```python
 import cv2 as cv
 
-video = cv.VideoCapture('Project_one_video.mp4')
+video = cv.VideoCapture('videos/Project_one_video.mp4')
 
 subtractor = cv.createBackgroundSubtractorMOG2(20,50)
 
