@@ -81,7 +81,7 @@ while True:
             break
 
     else:
-        video = cv.VideoCapture('Project_one_video.mp4')
+        video = cv.VideoCapture('videos/Project_one_video.mp4')
 
 cv.destroyAllWindows()
 video.release()
