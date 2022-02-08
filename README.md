@@ -57,6 +57,20 @@ Add waitkey
         if cv.waitKey(5) == ord('q'):
             break
 ```
+Add an else block 
+```python
+if ret:
+        mask = subtractor.apply(frame)
+        cv.imshow('Motion Filtering', mask)
+
+        if cv.waitKey(5) == ord('q'):
+            break
+#here 
+    else:
+        video = cv.VideoCapture('videos/Project_one_video.mp4')
+
+```
+
 Finally Destroy all windows and release the video
 ```python
 cv.destroyAllWindows()
