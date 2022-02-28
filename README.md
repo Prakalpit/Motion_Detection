@@ -25,7 +25,7 @@ video = cv.VideoCapture('videos/Project_one_video.mp4')
 Note you could use your camera too by below given code 
 
 ```python
-video = cv2.VideoCapture(0)
+video = cv.VideoCapture(0)
 ```
 
 Create a subtractor object
@@ -44,7 +44,7 @@ If the `ret`, the return value exists
 ```python
     if ret:
         mask = subtractor.apply(frame)
-        cv2.imshow('Motion Filtering', mask)
+        cv.imshow('Motion Filtering', mask)
 ```
 
 Add waitkey
@@ -52,7 +52,7 @@ Add waitkey
 ```python
     if ret:
         mask = subtractor.apply(frame)
-        cv2.imshow('Motion Filtering', mask)
+        cv.imshow('Motion Filtering', mask)
 
         if cv.waitKey(5) == ord('q'):
             break
